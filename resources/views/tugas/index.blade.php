@@ -78,7 +78,7 @@
                             <form action="{{ route('tugas.destroy', $item->id) }}" method="POST" onsubmit="return confirm('Yakin hapus?')">
                                 @csrf
                                 @method('DELETE')
-                                <button class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded-md text-xs shadow"></button>
+                                <button class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded-md text-xs shadow">🗑️</button>
                             </form>
                         </td>
                     </tr>
